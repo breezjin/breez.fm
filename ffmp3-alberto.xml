@@ -1,0 +1,8 @@
+<muses-skin folder="ffmp3-alberto" togglePlayStop="true">
+  <bg image="bg.png" x="0" y="0" ></bg>
+  <play image="play.png" x="0" y="0" clickimage="playclick.png" />
+  <stop image="pause.png" x="0" y="0" clickimage="pauseclick.png" bgimage="pause.png"/>
+  <text x="100" y="15" width="138" height="20" color="#FFFFFF" font="Arial" size="10" align="center" />
+  <volume x="120" y="39" width="100" height="20" holderImage="holder.png" mode="holder" />
+  <status imagePlay="on.png" imageStop="off.png" x="220" y="65" />
+</muses-skin>

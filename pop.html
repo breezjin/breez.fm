@@ -1,0 +1,34 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+</head>
+
+<script language="JavaScript">  
+<!--
+function setCookie( name, value, expiredays ) 
+{ 
+var todayDate = new Date(); 
+todayDate.setDate( todayDate.getDate() + expiredays ); 
+document.cookie = name + "=" + escape( value ) + "; path=/; expires=" + todayDate.toGMTString() + ";" 
+} 
+function closeWin()  {
+{ 
+if ( document.myform.notice.checked )  // 폼네임 myform 은 동일해야 합니다.
+setCookie("CookieName", "no" , 1);   // 부모창에서 지정한 쿠키네임과 일치 해야 합니다.
+} 
+top.close();
+}
+-->
+</script>
+
+<form name="myform"> 
+<input type="checkbox" name="notice" onclick="closeWin()">오늘 하룻동안 페이지를 열지 않습니다 
+</form>
+
+<body>
+<body background = "3.jpg">
+<image src=popup.JPG> 
+</body>
+</html>
